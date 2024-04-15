@@ -1,7 +1,7 @@
 
 # Kubernetes Cluster Setup Guide 🌐
 
-This guide provides instructions on setting up a Kubernetes cluster using scripts from the `cka` repository. Follow these steps to configure your cluster's master and worker nodes.
+This guide provides instructions on setting up a Kubernetes cluster using scripts from the this repository. Follow these steps to configure your cluster's master and worker nodes.
 
 ## Prerequisites 📋
 - Machines (virtual or physical) for the master and worker nodes.
@@ -16,22 +16,16 @@ git clone https://github.com/mtahaelmaghrabi/cka
 ## Setup for All Nodes 🛠️
 Perform these steps on every node.
 
-### Update System Packages
-Keep your system up-to-date:
-```bash
-sudo apt update
-```
-
 ### Setup Container Runtime
-Install Docker or another container runtime:
+Install containerd container runtime:
 ```bash
-sudo cka/setup-container.sh
+sudo cka/ubuntu/setup-container.sh
 ```
 
 ### Install Kubernetes Tools
 Install `kubeadm`, `kubelet`, and `kubectl`:
 ```bash
-sudo cka/setup-kubetools.sh
+sudo cka/ubuntu/setup-kubetools.sh
 ```
 
 ## Master Node Setup 👑
