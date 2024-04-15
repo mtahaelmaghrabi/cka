@@ -79,5 +79,3 @@ Your Kubernetes cluster is ready for applications. For more info, visit the Kube
 ### Visual Aids 🖼️
 - **Kubernetes Architecture:** ![Kubernetes Architecture](URL_to_image)
 - **Calico Networking:** ![Calico Networking](URL_to_image)
-
-Replace `URL_to_image` with actual URLs where images are hosted.
