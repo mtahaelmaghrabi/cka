@@ -64,7 +64,7 @@ Perform these steps on worker nodes only.
 ### Join Cluster
 Join each worker to the cluster using the master's token:
 ```bash
-kubeadm join 192.168.100.95:6443 --token 2xvr1j.v5iob57u3ktf6w5p --discovery-token-ca-cert-hash sha256:9e42aab7e7d53f4cd062da3d34006e0ea95ab8a3a463b697bd4d930af8cc4d50
+kubeadm join 192.168.100.100:6443 --token 2xvr1j.v5iob57u3ktf6w5p --discovery-token-ca-cert-hash sha256:9e42aabxxxxxxxxxxxx
 ```
 
 ## Verification ✔️
@@ -75,7 +75,3 @@ kubectl get nodes
 
 ## Conclusion 🎉
 Your Kubernetes cluster is ready for applications. For more info, visit the Kubernetes documentation.
-
-### Visual Aids 🖼️
-- **Kubernetes Architecture:** ![Kubernetes Architecture](URL_to_image)
-- **Calico Networking:** ![Calico Networking](URL_to_image)
